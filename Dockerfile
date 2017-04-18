@@ -21,5 +21,5 @@ ADD ./install.properties install.properties
 ADD ./boostrap.sh .
 ADD ./ranger.sql .
 
-CMD ./boostrap.sh
+CMD ./bootstrap.sh
 
