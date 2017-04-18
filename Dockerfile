@@ -18,7 +18,7 @@ RUN mkdir /opt/ranger_home && \
 WORKDIR /opt/ranger_home/ranger-0.7.0-admin
 
 ADD ./install.properties install.properties
-ADD ./boostrap.sh .
+ADD ./bootstrap.sh .
 ADD ./ranger.sql .
 
 CMD ./bootstrap.sh
