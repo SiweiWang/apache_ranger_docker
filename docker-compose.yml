@@ -11,7 +11,7 @@ services:
    ranger:
      depends_on:
        - db
-     image: ranger
+     image: siweiwang/apache_ranger_docker
      ports:
        - "6080:6080"
      restart: always
