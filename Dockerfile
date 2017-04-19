@@ -21,5 +21,8 @@ ADD ./install.properties install.properties
 ADD ./bootstrap.sh .
 ADD ./ranger.sql .
 
+# Change permission 
+RUN chmod 755 ./bootstrap.sh
+
 CMD ./bootstrap.sh
 
